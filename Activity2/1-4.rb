@@ -21,10 +21,10 @@ elsif (input.to_i>100)
 end
 
 #3
-word = ""
+word = "" 
 while word != "STOP\n"
     puts "Type anything! Type \"Stop\" to end the program."
-    word = gets
+    word = gets #gets.chomp to remove the \n
     puts "You typed #{word}"
     word.upcase!
 end
